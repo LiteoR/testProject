@@ -20,6 +20,7 @@ const Slider = ({onSlideChange, items}) => {
                 centeredSlides={true}
                 spaceBetween={28}
                 loop={true}
+                slideToClickedSlide={true}
                 onSlideChange={(swiper) => onSlideChange(swiper.realIndex)}
                 className={classes.list}
                 ref={swiperRef}

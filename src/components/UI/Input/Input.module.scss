@@ -16,7 +16,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #8C8C8C;
+    color: #434343;
+
+    &::placeholder {
+      color: #8C8C8C;
+    }
   }
 
   .button {
