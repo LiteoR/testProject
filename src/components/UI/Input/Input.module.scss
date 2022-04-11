@@ -1,0 +1,29 @@
+.input {
+  display: flex;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 7px 15px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Roboto', serif;
+
+  .field {
+    border: 0;
+    outline: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8C8C8C;
+  }
+
+  .button {
+    display: flex;
+    border: 0;
+    outline: none;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+}

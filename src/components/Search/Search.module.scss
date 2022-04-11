@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .item {
+    margin-bottom: 16px;
+  }
+
+  .chipsItem {
+    margin-right: 16px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+      margin-left: 16px;
+    }
+  }
+}
